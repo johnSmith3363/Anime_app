@@ -1,0 +1,10 @@
+<section class="content">
+    <form>
+        <input type="text" placeholder="Search Tome">
+        <button type="button">Search</button>
+    </form>
+</section>
+
+<section class="content">
+    <app-anime-tome class="listing" *ngFor="let animeTome of animeTomeList" [anime] = "animeTome"></app-anime-tome>
+</section>
