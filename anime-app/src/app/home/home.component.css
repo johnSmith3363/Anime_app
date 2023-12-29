@@ -16,6 +16,8 @@ form{
 
 input[type=text]{
     
-    border:none;
-    border-bottom: 3px solid blue;
+    border: solid 1px var(--primary-color);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(241, 235, 227);
 }
